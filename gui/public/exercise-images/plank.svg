@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 250" role="img" aria-labelledby="title desc">
+  <title id="title">前臂平板支撑侧视示意</title>
+  <desc id="desc">脚尖与前臂支撑地面，躯干保持自然稳定直线。简化示意，不替代专业动作指导。</desc>
+  <rect width="480" height="250" rx="20" fill="#f5f8f2"/>
+  <path d="M35 205H450" stroke="#b5c7b6" stroke-width="3"/>
+  <circle cx="118" cy="109" r="22" fill="#d0ae91"/>
+  <path d="M144 128L260 147L388 186" fill="none" stroke="#46725c" stroke-width="30" stroke-linecap="round"/>
+  <path d="M147 131L170 192L117 199M382 183L407 200" fill="none" stroke="#d0ae91" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M178 110L318 142" stroke="#8eab94" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="240" y="42" text-anchor="middle" fill="#365d49" font-family="sans-serif" font-size="19">前臂支撑 · 躯干稳定</text>
+  <text x="240" y="234" text-anchor="middle" fill="#718274" font-family="sans-serif" font-size="13">原创简化示意；无痛范围内练习，不屏息</text>
+</svg>

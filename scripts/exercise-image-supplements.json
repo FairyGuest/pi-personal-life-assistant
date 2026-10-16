@@ -1,0 +1,388 @@
+{
+  "reviewed_at": "2026-10-16",
+  "sources": {
+    "everkinetic": {
+      "repository": "https://github.com/everkinetic/data",
+      "revision": "446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6",
+      "license_source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/LICENSE.md"
+    },
+    "workout-guide": {
+      "repository": "https://github.com/bryllim/workout-guide",
+      "version": "1.0.0",
+      "revision": "9d900120b6a4cb4b067d06e6554d90ee6456124a",
+      "tarball": "https://registry.npmjs.org/@bryllim/workout-guide/-/workout-guide-1.0.0.tgz",
+      "integrity": "sha512-N593OR3vyT/C1sDpdM/UoF5gHUwEAziExxo9Y0awMLyPpCvx8DnIAlOFJ9kHk/TZwhbWN6WoCEASAEX5ZbiIGQ==",
+      "license_source": "https://github.com/bryllim/workout-guide/blob/9d900120b6a4cb4b067d06e6554d90ee6456124a/LICENSE-ASSETS"
+    }
+  },
+  "records": [
+    {
+      "id": "wger-379",
+      "english": "Leverage Machine Chest Press",
+      "equipment": "machine",
+      "provider": "everkinetic",
+      "upstream": {
+        "id": "0066",
+        "name": "Machine Bench Press",
+        "equipment": [
+          "bench press machine"
+        ]
+      },
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0066-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0066-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "ff6dc2d5b1adbf7acd5e2e59e13518846a4058c2ccd5c1d615c97550780c525a",
+          "git_blob": "582458b3ba229a637b65fbf54cdb5d54688d8ea9",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "起始 · 屈肘"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0066-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0066-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "7e40d8c0b02dc182c5bdb6e88c0826d83cba09330bb0add50683d6ee5781cab4",
+          "git_blob": "f8b9460d8999d8757f47c47a363e2d9763002608",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "推出 · 控制伸肘"
+        }
+      ]
+    },
+    {
+      "id": "wger-369",
+      "english": "Leg Extension",
+      "equipment": "machine",
+      "provider": "everkinetic",
+      "upstream": {
+        "id": "0142",
+        "name": "Leg Extensions",
+        "equipment": [
+          "machine"
+        ]
+      },
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0142-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0142-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "12f597b6ad73e5c224ddfd9ffac6dba0a9af45818420fc579490835a1b80203f",
+          "git_blob": "f66435a326aa156aa780f288bb8ac9c6d138b1ae",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "起始 · 屈膝"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0142-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0142-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "af74e968597d5b36e08e2d3583c0c2af3cccfd215740d277e74e0b3f3ae0fe5c",
+          "git_blob": "35867e38496dafa777341960aa1551a549938545",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "伸膝抬起"
+        }
+      ]
+    },
+    {
+      "id": "wger-371",
+      "english": "Leg Press",
+      "equipment": "machine",
+      "provider": "everkinetic",
+      "upstream": {
+        "id": "0127",
+        "name": "Leg Press",
+        "equipment": [
+          "machine"
+        ]
+      },
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0127-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0127-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "d2270aa075bb27db2d3bc9eeba3ad8acea7cfc2926c664d10d046c01619f2ed1",
+          "git_blob": "d90c346b4fce6a6a7cc7df5aab9dc6db56a50bad",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "屈膝阶段"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0127-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0127-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "078c7c902505de0fd5049774d92628f0c6e14c1a1979484e71e5d24abec84135",
+          "git_blob": "42a1e5745239808eb0c6b51391aedc70795c11c2",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "蹬回阶段"
+        }
+      ]
+    },
+    {
+      "id": "wger-12",
+      "english": "Seated Hip Adduction",
+      "equipment": "machine",
+      "provider": "everkinetic",
+      "upstream": {
+        "id": "0157",
+        "name": "Thigh Adductor",
+        "equipment": [
+          "machine"
+        ]
+      },
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0157-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0157-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "65bdf74cf7ad8a92a02dc53d7757b866f4861b3365ad7e3016e8b1ff6b8f1e51",
+          "git_blob": "731fd4c4a8bad5f906f120dc1a25d6a7e8f8e8d9",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "打开起始"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0157-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0157-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "0d1625da565477602bd55eb4c268a1aaf49de1c3757ece4bbbec873aaaa9b317",
+          "git_blob": "b46144ed0c01eaf90a000b2d7d64c9c6d4774852",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "向内夹合"
+        }
+      ]
+    },
+    {
+      "id": "wger-1672",
+      "english": "Seated Hip Abduction",
+      "equipment": "machine",
+      "provider": "everkinetic",
+      "upstream": {
+        "id": "0156",
+        "name": "Thigh Abductor",
+        "equipment": [
+          "machine"
+        ]
+      },
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0156-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0156-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "548304530ccc4f33dbf7f1d77741b2e542ca40a18a518af6d871b24336056d7a",
+          "git_blob": "567b75e91b682634a37d256c5a2c1fb3520212bb",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "合拢起始"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0156-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0156-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "4a13afc1ac21cfcb5f85e06867604e769cadb3214e14008685b9257bb00567db",
+          "git_blob": "a672c7712a99e359467b3bd52effdd902c1adbfe",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "向外打开"
+        }
+      ]
+    },
+    {
+      "id": "wger-590",
+      "english": "Sitting Calf Raises",
+      "equipment": "machine",
+      "provider": "everkinetic",
+      "upstream": {
+        "id": "0279",
+        "name": "Seated Calf Raise using Machine",
+        "equipment": [
+          "machine"
+        ]
+      },
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0279-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0279-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "8dd3daed18c59afe74c0517cbbffb0a92822eef9124ae5b6520fa22dc02ec5f5",
+          "git_blob": "5598612383e4055124090ba2b6e5c497e58159ec",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "脚跟下降"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0279-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0279-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "ddcbc8d89cf97d6a8f19dad4f1f3c631027d7f2c8debdef7b11c00baab1064cd",
+          "git_blob": "98dbf9261baa170ecf007ef49b75de458d5483c7",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "脚跟抬起"
+        }
+      ]
+    },
+    {
+      "id": "wger-1424",
+      "english": "Biceps Curl Machine",
+      "equipment": "machine",
+      "provider": "everkinetic",
+      "upstream": {
+        "id": "0236",
+        "name": "Preacher Curl with Machine",
+        "equipment": [
+          "machine"
+        ]
+      },
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0236-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0236-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "75b6db06bdc55e0b5025cfca13fbc0aeea839922711afb4e42264f1d97bddff4",
+          "git_blob": "6c41e14f97590d334bf9422c02da7476f2cd7833",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "伸肘起始"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0236-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0236-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "e3539e769c6fb32dc5f6189fce0a5c38501aeb55ef58b73ac56042509962bfc5",
+          "git_blob": "c89551adf91b797689ed6dfda49dc899b570f1ce",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "屈肘弯举"
+        }
+      ]
+    },
+    {
+      "id": "wger-661",
+      "english": "Triceps on Machine",
+      "equipment": "machine",
+      "provider": "everkinetic",
+      "upstream": {
+        "id": "0210",
+        "name": "Triceps Extensions using Machine",
+        "equipment": [
+          "machine"
+        ]
+      },
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0210-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0210-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "75e3143fb98dc1e57d56c0cfbf31f48606f4c7028b3f749241de2efd016ebf9c",
+          "git_blob": "6ffe5998a9084f2661b1f3c60e72b9191ac6f3e0",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "屈肘起始"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0210-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0210-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "6c61d6cef2897679228630f050d0635b59822f699440f525185e4d3de0be163d",
+          "git_blob": "a58260ff5203594cc922d84bb4273f7f45fe0d5a",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "伸肘推出"
+        }
+      ]
+    },
+    {
+      "id": "wger-355",
+      "english": "Lat Pull Down (Straight Back)",
+      "equipment": "cable",
+      "provider": "everkinetic",
+      "upstream": {
+        "id": "0093",
+        "name": "Underhand Pull downs",
+        "equipment": [
+          "cable machine"
+        ]
+      },
+      "image_note": "图中是反握的绳索下拉变式，并非挂片式高拉；实际握法请在备注中区分。",
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0093-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0093-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "e2c65fd7910157b8729f5e64cb0410306badc9e81f94580962af83ca80d2351e",
+          "git_blob": "84021bbb04160f9340e9f8d12e788c0f7a2e3c10",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "反握 · 起始"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0093-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0093-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "90a906f216e37dd46862984bb1c5ab9822447bebee5e0f9d3596739a4fbfdbfb",
+          "git_blob": "68ed864c634030d78703e65f716231337c543a1c",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "反握 · 下拉"
+        }
+      ]
+    },
+    {
+      "id": "wger-1744",
+      "english": "Machine Side Lateral Raises",
+      "equipment": "machine",
+      "provider": "workout-guide",
+      "upstream": {
+        "id": "exercise-machine-lateral-raise",
+        "name": "Machine Lateral Raise",
+        "equipment": [
+          "Machine"
+        ],
+        "package_path": "assets/machine-lateral-raise/frame-1.png",
+        "attribution": {
+          "creator": "Bryl Lim",
+          "creatorUrl": "https://bryllim.com",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image_note": "此图只示意抬臂阶段。原文件为浅色线条，界面反色显示；器械转轴和垫子位置以现场铭牌为准。",
+      "images": [
+        {
+          "path": "/exercise-images/workout-guide-machine-lateral-raise-1.png",
+          "source": "https://github.com/bryllim/workout-guide/blob/9d900120b6a4cb4b067d06e6554d90ee6456124a/packages/workout-guide/assets/machine-lateral-raise/frame-1.png",
+          "author": "Bryl Lim",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "193d5281a5badd2342a747991c9f65d340abcddcbd7a25cdc5cf6255a2c3f29d",
+          "modifications": "未修改PNG文件；界面将浅色线条反色为深色并缩放显示",
+          "caption": "抬臂阶段示意",
+          "rendering": "invert"
+        }
+      ]
+    }
+  ]
+}

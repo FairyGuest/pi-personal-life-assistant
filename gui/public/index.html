@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>栖 · Pi 个人生活助手</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+</head>
+<body>
+  <section id="startup" class="startup-panel" role="status" aria-live="polite">
+    <span class="brand-mark">栖</span><h1 id="startup-title">正在启动生活助手…</h1>
+    <p id="startup-message">正在加载本地界面。如果长时间停留在这里，请重新双击工作区的“打开生活助手”；发现旧版本时会提示确认重启。</p>
+    <div id="startup-actions" class="row-actions" hidden><button id="startup-retry" type="button" class="secondary">重试加载</button><button id="startup-stop" type="button" class="primary">关闭旧服务</button></div>
+    <p class="muted">启动和重试不会自动提交训练记录。重启前请先保存其他窗口的输入。</p>
+  </section>
+  <div id="app-shell" hidden>
+  <aside class="sidebar">
+    <a class="brand" href="#overview" aria-label="返回生活看板"><span class="brand-mark">栖</span><span>Personal Agent<small>给生活，一点方向。</small></span></a>
+    <div class="section-label">我的空间</div>
+    <nav id="navigation" aria-label="主导航"></nav>
+    <div class="session-heading"><span class="section-label">最近对话</span><button id="new-session" class="icon-button" aria-label="新建对话" title="新建对话">＋</button></div>
+    <div id="sessions" class="sessions"><p class="muted">正在读取会话…</p></div>
+    <div class="sidebar-bottom"><span class="connection-dot" id="connection-dot"></span><span id="connection-label">正在连接</span><button id="shutdown" class="icon-button" title="关闭本地服务" aria-label="关闭本地服务">⏻</button><small>独立工作区 · D:\PersonalAgent</small></div>
+  </aside>
+  <main class="main">
+    <header class="topbar"><span id="breadcrumb">我的空间 / 生活看板</span><div><span class="privacy-pill">本地资料 · 按需授权</span><span class="avatar">我</span></div></header>
+    <section id="view" class="view" aria-live="polite"></section>
+    <section id="chat" class="chat-view" hidden>
+      <div class="chat-heading"><div><span class="eyebrow">A LITTLE CLARITY, EVERY DAY</span><h1 id="session-title">新对话</h1></div><button id="rename-session" class="secondary">重命名</button></div>
+      <div class="chat-layout"><div class="chat-column"><div id="messages" class="messages" aria-live="polite"></div><div id="activity" class="activity" hidden></div>
+      <form id="composer" class="composer"><label class="sr-only" for="message-input">和生活助手对话</label><textarea id="message-input" rows="3" maxlength="20000" placeholder="聊聊你现在最想解决的一件事…"></textarea><div class="composer-footer"><span id="composer-hint">Enter 发送 · Shift + Enter 换行</span><button id="stop" type="button" class="secondary" hidden>停止</button><button id="send" type="submit" class="primary">发送 ↑</button></div></form><p class="chat-privacy">聊天会发给个人 DeepSeek；保存、联网和资料共享会另行确认。</p></div>
+      <aside class="chat-aside"><span class="section-label">把想法变成下一步</span><h3>你不需要一次解决所有事。</h3><p>先澄清现状，再比较选择，最后留下一个今天能完成的小行动。</p><div class="aside-note"><strong>资料由你决定</strong><p>仅本地记录不会在新对话中自动发给模型。聊天本身不属于“仅本地”。</p></div><button id="chat-profile" class="text-button">查看我的资料 →</button></aside></div>
+    </section>
+  </main>
+  <dialog id="approval-dialog" class="approval-dialog"><form id="approval-form"><span class="eyebrow" id="approval-kind">由你确认</span><h2 id="approval-title"></h2><p id="approval-description"></p><pre id="approval-message"></pre><label id="approval-label" for="approval-value">你的回答</label><textarea id="approval-value" rows="3" maxlength="16000"></textarea><select id="approval-options" aria-label="选择一项"></select><p id="approval-expiry" class="muted"></p><div class="dialog-actions"><button type="button" id="approval-cancel" class="secondary">取消 / 拒绝</button><button type="submit" id="approval-accept" class="primary">确认</button></div></form></dialog>
+  <dialog id="notice-dialog" class="notice-dialog"><h2>本地操作结果</h2><pre id="notice-content"></pre><button id="notice-close" class="primary">知道了</button></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  </div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+import assert from 'node:assert/strict';
+import path from 'node:path';
+import os from 'node:os';
+import { mkdtempSync, mkdirSync, writeFileSync, rmSync } from 'node:fs';
+import { pathToFileURL } from 'node:url';
+import { LifeStore, today } from '../store.mjs';
+import { registerLife, LIFE_TOOLS } from '../extension.mjs';
+import { readDocument } from '../documents.mjs';
+import { PublicResearch } from '../network.mjs';
+
+const packageRoot = path.join(process.env.APPDATA, 'npm', 'node_modules', '@earendil-works', 'pi-coding-agent');
+const sdk = await import(pathToFileURL(path.join(packageRoot, 'dist', 'index.js')));
+const { Type } = await import(pathToFileURL(path.join(packageRoot, 'node_modules', 'typebox', 'build', 'index.mjs')));
+const workspace = mkdtempSync(path.join(os.tmpdir(), 'pi-life-live-fictional-'));
+const config = path.join(workspace, 'config');
+mkdirSync(config);
+let currentSession;
+let closeStore;
+let privacyRejected = false;
+
+try {
+  const modelRuntime = await sdk.ModelRuntime.create({ authPath: path.join(process.env.USERPROFILE, '.pi', 'agent', 'auth.json'), modelsPath: null, allowModelNetwork: false });
+  const model = modelRuntime.getModel('deepseek', 'deepseek-flash');
+  assert.ok(model);
+  console.log(`MODEL ${model.provider}/${model.id}`);
+  const store = new LifeStore(workspace);
+  store.remember({ domain: 'career', key: '测试岗位', kind: 'fact', value: '虚构测试角色：Agent工程师，校验码TEST_ROLE_482', effective_date: today(), cloud_allowed: true });
+  store.remember({ domain: 'general', key: '本地不分享测试', kind: 'preference', value: 'LOCAL_SECRET_1937', effective_date: today(), cloud_allowed: false });
+  store.close();
+  const newSession = async () => {
+    const settingsManager = sdk.SettingsManager.inMemory({ defaultProvider: 'deepseek', defaultModel: 'deepseek-flash', defaultTools: [], defaultProjectTrust: 'never', compaction: { enabled: false }, retry: { enabled: false } });
+    const resourceLoader = new sdk.DefaultResourceLoader({ cwd: workspace, agentDir: config, settingsManager, noExtensions: true, noSkills: true, noContextFiles: true, noPromptTemplates: true, noThemes: true, extensionFactories: [pi => { closeStore = registerLife(pi, Type, { workspace }); }] });
+    await resourceLoader.reload();
+    const loaded = await sdk.createAgentSession({ cwd: workspace, agentDir: config, modelRuntime, model, thinkingLevel: 'off', noTools: 'builtin', settingsManager, resourceLoader, sessionManager: sdk.SessionManager.inMemory(workspace) });
+    currentSession = loaded.session;
+    await currentSession.bindExtensions({ mode: 'print' });
+    assert.deepEqual([...currentSession.getActiveToolNames()].sort(), [...LIFE_TOOLS].sort());
+    return currentSession;
+  };
+  const prompt = async message => {
+    const timer = setTimeout(() => currentSession.abort(), 90000);
+    try { await currentSession.prompt(message); } finally { clearTimeout(timer); }
+    const errors = currentSession.messages.filter(item => item.role === 'assistant' && item.stopReason === 'error');
+    if (errors.length) throw new Error('DeepSeek model request failed');
+    const answer = currentSession.getLastAssistantText() ?? '';
+    assert.ok(answer.length > 0);
+    assert.ok(!answer.includes('LOCAL_SECRET_1937'));
+    return answer;
+  };
+  await newSession();
+  const recall = await prompt('这是虚构测试。请从已授权记忆告诉我当前测试岗位及校验码，不猜测，只答一句话。');
+  assert.ok(recall.includes('TEST_ROLE_482'));
+  console.log(`RECALL PASS ${recall.slice(0, 250)}`);
+  currentSession.dispose(); currentSession = undefined; closeStore?.();
+  const revised = new LifeStore(workspace);
+  revised.remember({ domain: 'career', key: '测试岗位', kind: 'fact', value: '虚构更新角色：生活助手产品经理，校验码TEST_ROLE_926', effective_date: today(), cloud_allowed: true });
+  revised.close();
+  await newSession();
+  const corrected = await prompt('这是全新会话的虚构测试。当前测试岗位和校验码是什么？只答一句话。');
+  assert.ok(corrected.includes('TEST_ROLE_926'));
+  assert.ok(!corrected.includes('TEST_ROLE_482'));
+  console.log(`NEW SESSION CORRECTION PASS ${corrected.slice(0, 250)}`);
+  const finance = await prompt('这是虚构测算。请调用life_finance：初始0元，每月底7000元，20年，有效年化10%，通胀0，不买房。报告最终金额并说明收益不保证，只用两句话。');
+  const financeTools = currentSession.messages.filter(message => message.role === 'toolResult' && message.toolName === 'life_finance');
+  assert.ok(financeTools.length);
+  console.log(`FINANCE PASS ${finance.slice(0, 350)}`);
+  const denied = await prompt('虚构测试，请现在调用life_memory保存general领域的测试昵称，类型preference，值TEST_NICKNAME_100。必须实际尝试工具，不允许你假装成功。');
+  const denialResults = currentSession.messages.filter(message => message.role === 'toolResult' && message.toolName === 'life_memory' && JSON.stringify(message.content).includes('拒绝'));
+  assert.ok(denialResults.length);
+  const check = new LifeStore(workspace);
+  privacyRejected = !check.listMemory().some(record => record.value === 'TEST_NICKNAME_100');
+  check.close();
+  assert.ok(privacyRejected);
+  console.log(`NO UI WRITE DENIAL PASS ${denied.slice(0, 300)}`);
+  let confirmations = 0;
+  let fitnessSkillSeen = false;
+  currentSession.subscribe(event => {
+    if (event.type === 'message_start' && currentSession.systemPrompt.includes('场景技能：fitness-tracking')) fitnessSkillSeen = true;
+  });
+  await currentSession.bindExtensions({ mode: 'rpc', uiContext: { confirm: async () => { confirmations++; return true; }, notify: () => {}, setStatus: () => {}, setTitle: () => {} } });
+  const measured = await prompt('虚构测试：2026-01-01早07:30体重71.2kg，2026-01-02早07:30体重70.8kg；腰围同两天分别84cm、83.5cm。请调用life_metric的save_batch保存四项，测量口径为虚构测试。只需报告是否保存成功。');
+  const metricDatabase = new LifeStore(workspace);
+  assert.equal(metricDatabase.listMetrics().length, 4);
+  metricDatabase.close();
+  assert.ok(fitnessSkillSeen);
+  console.log(`LIVE FITNESS BATCH PASS ${measured.slice(0, 200)}`);
+  const chartAnswer = await prompt('请实际调用life_chart为刚才两天的体重和腰围画折线图，send_summary=false，只在本地生成，不发送数值摘要。不要使用你编写的数字替代数据库历史。给出PNG与HTML路径。');
+  const charts = currentSession.messages.filter(message => message.role === 'toolResult' && message.toolName === 'life_chart');
+  assert.ok(charts.length);
+  const lastChart = JSON.parse(charts.at(-1).content[0].text);
+  assert.equal(lastChart.saved, true);
+  assert.equal(lastChart.cloud_data_shared, false);
+  assert.ok(confirmations >= 3);
+  console.log(`LIVE LOCAL CHART PASS ${chartAnswer.slice(0, 200)}`);
+  const research = new PublicResearch();
+  const paper = await research.papers({ source: 'arxiv', query: '2210.03629' });
+  assert.ok(paper.results[0].title.includes('ReAct'));
+  console.log(`LIVE ARXIV PASS ${paper.results[0].title}`);
+  const search = await research.search('DeepSeek official documentation');
+  assert.ok(search.results.length);
+  console.log(`LIVE WEB SEARCH PASS ${search.results.length} candidates`);
+  mkdirSync(path.join(workspace, 'inbox'), { recursive: true });
+  const pdf = '%PDF-1.1\n1 0 obj<</Type /Catalog /Pages 2 0 R>>endobj\n2 0 obj<</Type /Pages /Kids [3 0 R] /Count 1>>endobj\n3 0 obj<</Type /Page /Parent 2 0 R /MediaBox [0 0 300 300] /Resources<</Font<</F1 4 0 R>>>> /Contents 5 0 R>>endobj\n4 0 obj<</Type /Font /Subtype /Type1 /BaseFont /Helvetica>>endobj\n5 0 obj<</Length 60>>stream\nBT /F1 12 Tf 30 250 Td (Fictional PDF extraction test) Tj ET\nendstream\nendobj\ntrailer<</Root 1 0 R>>\n%%EOF';
+  writeFileSync(path.join(workspace, 'inbox', 'fictional.pdf'), pdf);
+  const extracted = await readDocument(workspace, 'fictional.pdf');
+  assert.ok(extracted.text.includes('Fictional PDF'));
+  console.log('LIVE PDF EXTRACTION PASS');
+  console.log('ALL LIVE FICTIONAL SMOKE CHECKS PASSED');
+} catch (error) {
+  console.error(error.stack);
+  process.exitCode = 1;
+} finally {
+  currentSession?.dispose();
+  closeStore?.();
+  rmSync(workspace, { recursive: true, force: true });
+}

@@ -1,0 +1,1435 @@
+{
+  "reviewed_at": "2026-10-16",
+  "note": "主练/协同是一般参考，不表示相同训练量或个人医疗适用性；可按实际动作调整。",
+  "records": [
+    {
+      "id": "wger-73",
+      "name": "杠铃卧推",
+      "english": "Bench Press",
+      "equipment": "barbell",
+      "primary_focuses": [
+        "chest"
+      ],
+      "secondary_focuses": [
+        "arms",
+        "shoulders"
+      ],
+      "primary_muscles": "胸大肌",
+      "secondary_muscles": "肱三头肌、肩部",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/73/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-73-68.png",
+          "source": "https://wger.de/media/exercise-images/192/Bench-press-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "917e88d61aefa05cf46a98e44e41630343c0b2c821624ca0ac41c07dfedbceed",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-73-70.png",
+          "source": "https://wger.de/media/exercise-images/192/Bench-press-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "8f7da56e008f2e08e04e27c8702bfa223587029ed2bf186cee27ad9c312269c5",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-75",
+      "name": "哑铃卧推",
+      "english": "Benchpress Dumbbells",
+      "equipment": "dumbbells",
+      "primary_focuses": [
+        "chest"
+      ],
+      "secondary_focuses": [
+        "arms",
+        "shoulders"
+      ],
+      "primary_muscles": "胸大肌",
+      "secondary_muscles": "肱三头肌、肩部",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/75/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-75-113.png",
+          "source": "https://wger.de/media/exercise-images/97/Dumbbell-bench-press-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "2d8aa760a9c81b98f79937c936c4819b5686a04a1c376a072061a5493da0a5d4",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-75-114.png",
+          "source": "https://wger.de/media/exercise-images/97/Dumbbell-bench-press-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "e80a5a428f4a0f0535b16968d7ac4f45aa00a5067181b225e4967a10d87d3aa3",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-537",
+      "name": "上斜哑铃卧推",
+      "english": "Incline Bench Press - Dumbbell",
+      "equipment": "dumbbells",
+      "primary_focuses": [
+        "chest"
+      ],
+      "secondary_focuses": [
+        "arms",
+        "shoulders"
+      ],
+      "primary_muscles": "胸部",
+      "secondary_muscles": "肱三头肌、肩部",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/537/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-537-105.png",
+          "source": "https://wger.de/media/exercise-images/16/Incline-press-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "53b0545c1bbe7dc5d7db758d4e510f7331f4b73d1ec291d4760f1e6d421ad6f9",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-537-106.png",
+          "source": "https://wger.de/media/exercise-images/16/Incline-press-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "e5a431a2475859436b32fcedefa316543c8dd2f72fb70e9980020e2ff3a21f34",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-538",
+      "name": "上斜杠铃卧推",
+      "english": "Incline Bench Press - Barbell",
+      "equipment": "barbell",
+      "primary_focuses": [
+        "chest"
+      ],
+      "secondary_focuses": [
+        "arms",
+        "shoulders"
+      ],
+      "primary_muscles": "胸部",
+      "secondary_muscles": "肱三头肌、肩部",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/538/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-538-129.png",
+          "source": "https://wger.de/media/exercise-images/41/Incline-bench-press-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "396b0bb512b64d0aba41c2093b7d246e74dc354589b6310e9b8bc2c98ecd767f",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-538-130.png",
+          "source": "https://wger.de/media/exercise-images/41/Incline-bench-press-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "4f5b1d20639bc2abe522264f3fcf802d088d26ee6ba80a70a381cae9f34816ac",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-76",
+      "name": "窄握杠铃卧推",
+      "english": "Bench Press Narrow Grip",
+      "equipment": "barbell",
+      "primary_focuses": [
+        "arms",
+        "chest"
+      ],
+      "secondary_focuses": [
+        "shoulders"
+      ],
+      "primary_muscles": "肱三头肌、胸部",
+      "secondary_muscles": "肩部",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/76/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-76-15.png",
+          "source": "https://wger.de/media/exercise-images/88/Narrow-grip-bench-press-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "9940d091c2248e520f21ed1541de500ae50b11d201ad61bcc092d13dd629c898",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-76-16.png",
+          "source": "https://wger.de/media/exercise-images/88/Narrow-grip-bench-press-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "f0dca9df7285fa03656afb4305defa727fea41318e3ac099ddc2be855b7a5b9c",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-135",
+      "name": "蝴蝶机夹胸",
+      "english": "Butterfly",
+      "equipment": "machine",
+      "primary_focuses": [
+        "chest"
+      ],
+      "secondary_focuses": [
+        "shoulders"
+      ],
+      "primary_muscles": "胸大肌",
+      "secondary_muscles": "肩部",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/135/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-135-112.png",
+          "source": "https://wger.de/media/exercise-images/98/Butterfly-machine-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "d1b070a22b6ddd179928c44a8fa9518cc9b80ce26b86209e43b85aaa098c259a",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-135-111.png",
+          "source": "https://wger.de/media/exercise-images/98/Butterfly-machine-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "bbcebf4eac97b0e2767f2cd92f9b63addd8096105dd58cb59633499c69ed293b",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-394",
+      "name": "坐姿绳索划船",
+      "english": "Long-Pulley (low Row)",
+      "equipment": "cable",
+      "primary_focuses": [
+        "back"
+      ],
+      "secondary_focuses": [
+        "arms"
+      ],
+      "primary_muscles": "背阔肌、背部",
+      "secondary_muscles": "肱二头肌、肱肌",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/394/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-394-144.png",
+          "source": "https://wger.de/media/exercise-images/143/Cable-seated-rows-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "f3d34798088421f3fbdc54bae7b7f0e04059f50ace657e9b96bbc0c7e6404731",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-394-143.png",
+          "source": "https://wger.de/media/exercise-images/143/Cable-seated-rows-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "6e52bfc5f0c486c0fb1ea40fdaf60493e92fb36b033a414a1de3c696936fac7f",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-83",
+      "name": "俯身杠铃划船",
+      "english": "Bent Over Rowing",
+      "equipment": "barbell",
+      "primary_focuses": [
+        "back"
+      ],
+      "secondary_focuses": [
+        "arms",
+        "shoulders"
+      ],
+      "primary_muscles": "背部",
+      "secondary_muscles": "手臂、肩部",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/83/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-83-84.png",
+          "source": "https://wger.de/media/exercise-images/109/Barbell-rear-delt-row-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "53fe36407f4f1601ead650fba892ae9ef29a3d524724065484f01eecb3efe2d2",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-83-90.png",
+          "source": "https://wger.de/media/exercise-images/109/Barbell-rear-delt-row-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "f4dcd22bf2b89b2b9f569ada23ea3efe42d14331e6394d18c17789a09c56b06e",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-152",
+      "name": "反手引体向上",
+      "english": "Chin Up",
+      "equipment": "bodyweight",
+      "primary_focuses": [
+        "back",
+        "arms"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "背阔肌、肱二头肌",
+      "secondary_muscles": "背部稳定肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/152/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-152-73.png",
+          "source": "https://wger.de/media/exercise-images/152/6c1a7459-266d-491a-bd50-7cbaea2bc771.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "82f66c212e0ab069d45c77771f4310a8b9b851c895d02b82375bb006d4d99977",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-152-75.png",
+          "source": "https://wger.de/media/exercise-images/152/b2c5a9f9-8beb-41f7-841c-9664d22a427e.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "b0dae95e977eac46ecef539f79d4b114e4b41f61ab5f70be5c2a487875532cc0",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-91",
+      "name": "杠铃弯举",
+      "english": "Biceps Curls With Barbell",
+      "equipment": "barbell",
+      "primary_focuses": [
+        "arms"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "肱二头肌",
+      "secondary_muscles": "肱肌（同属手臂）",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/91/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-91-27.png",
+          "source": "https://wger.de/media/exercise-images/74/Bicep-curls-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "c33d15868b7856471bff7a3a5cf5efaf7082b8d1376a9cf990a2257a2a1dcd3c",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-91-28.png",
+          "source": "https://wger.de/media/exercise-images/74/Bicep-curls-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "f3f401a35ccef993f1ca8c37db35e200f5f6d6321b66b3d609e0207b50032f57",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-92",
+      "name": "哑铃弯举",
+      "english": "Biceps Curls With Dumbbell",
+      "equipment": "dumbbells",
+      "primary_focuses": [
+        "arms"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "肱二头肌",
+      "secondary_muscles": "肱肌（同属手臂）",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/92/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-92-23.png",
+          "source": "https://wger.de/media/exercise-images/81/Biceps-curl-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "9db73cea5e78b57534ee38a72b8a92cc2bdb0f882f7ace4d8f3bb6354d9909b4",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-92-24.png",
+          "source": "https://wger.de/media/exercise-images/81/Biceps-curl-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "e1ac408080bfb00b4cc97665df0029d5d66207fb758857bbac0afafb5ff58881",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-95",
+      "name": "绳索弯举",
+      "english": "Biceps Curl With Cable",
+      "equipment": "cable",
+      "primary_focuses": [
+        "arms"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "手臂屈肘肌群",
+      "secondary_muscles": "前臂（同属手臂）",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/95/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-95-19.png",
+          "source": "https://wger.de/media/exercise-images/129/Standing-biceps-curl-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "417451559002fbd11eccfaeb26e93655beda6daddd50215102c512a1f95528e7",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-95-20.png",
+          "source": "https://wger.de/media/exercise-images/129/Standing-biceps-curl-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "5d26ae966437c6769feabc30175c5a165c91cdf8bbb77590c644f17d551ae549",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-272",
+      "name": "哑铃锤式弯举",
+      "english": "Hammer Curls",
+      "equipment": "dumbbells",
+      "primary_focuses": [
+        "arms"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "手臂屈肘肌群",
+      "secondary_muscles": "前臂（同属手臂）",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/272/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-272-47.png",
+          "source": "https://wger.de/media/exercise-images/86/Bicep-hammer-curl-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "f9809143f121283705612669b9d98cd25432be0c9018fe1f79ed924bafec7801",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-272-48.png",
+          "source": "https://wger.de/media/exercise-images/86/Bicep-hammer-curl-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "c5591af9a40419516da525aa108997807881e9c0ea4293b4b1f432c7b9862452",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-246",
+      "name": "仰卧曲杆臂屈伸",
+      "english": "Skullcrusher SZ-bar",
+      "equipment": "barbell",
+      "primary_focuses": [
+        "arms"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "肱三头肌",
+      "secondary_muscles": "按动作幅度与稳定方式而异",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/246/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-246-60.png",
+          "source": "https://wger.de/media/exercise-images/84/Lying-close-grip-triceps-press-to-chin-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "b5ef24dff500cfd5cd2f098266b265680cf69f9783f96089ccef78f148f44ee7",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-246-61.png",
+          "source": "https://wger.de/media/exercise-images/84/Lying-close-grip-triceps-press-to-chin-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "a852ec0ae7897fcf4e10ec992cc09ff78240a897ea6938a9196e83a67e2828eb",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-348",
+      "name": "哑铃侧平举",
+      "english": "Lateral Raises",
+      "equipment": "dumbbells",
+      "primary_focuses": [
+        "shoulders"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "肩部（三角肌）",
+      "secondary_muscles": "肩胛稳定肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/348/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-348-178.png",
+          "source": "https://wger.de/media/exercise-images/148/lateral-dumbbell-raises-large-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "7c31318be41a8ed82d6390d52eebda7ca280c18bb7727cf27f04c35c33eb3cdf",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-348-177.png",
+          "source": "https://wger.de/media/exercise-images/148/lateral-dumbbell-raises-large-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "acdcbbc93c7242d837f771d3422e26ad627da8faf2a3b133416fe886f8cc3cce",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-567",
+      "name": "坐姿哑铃推举",
+      "english": "Shoulder Press, Dumbbells",
+      "equipment": "dumbbells",
+      "primary_focuses": [
+        "shoulders"
+      ],
+      "secondary_focuses": [
+        "arms"
+      ],
+      "primary_muscles": "肩部（三角肌）",
+      "secondary_muscles": "肱三头肌",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/567/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-567-173.png",
+          "source": "https://wger.de/media/exercise-images/123/dumbbell-shoulder-press-large-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "d3fbf6690df84e743ae090164f133e84c5595a54a892d80532e0af4cb543f670",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-567-174.png",
+          "source": "https://wger.de/media/exercise-images/123/dumbbell-shoulder-press-large-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "42aa5e8286d57566ac5e5239013deddb48201c64656f13b4d26b91f6e33182ef",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-257",
+      "name": "杠铃前蹲",
+      "english": "Front Squats",
+      "equipment": "barbell",
+      "primary_focuses": [
+        "legs"
+      ],
+      "secondary_focuses": [
+        "core"
+      ],
+      "primary_muscles": "腿臀肌群",
+      "secondary_muscles": "核心稳定肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/257/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-257-149.png",
+          "source": "https://wger.de/media/exercise-images/191/Front-squat-1-857x1024.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "4068499db0a18054ceb56c01e36f0d74c58bb9a3f0729e1d990acd21d8d84159",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-257-150.png",
+          "source": "https://wger.de/media/exercise-images/191/Front-squat-2-857x1024.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "4fb462d6f75e2e063b1f11469df38983921dea139fd06bc94183e917951d97e0",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-206",
+      "name": "哑铃行走弓步",
+      "english": "Dumbbell Lunges Walking",
+      "equipment": "dumbbells",
+      "primary_focuses": [
+        "legs"
+      ],
+      "secondary_focuses": [
+        "core"
+      ],
+      "primary_muscles": "股四头肌、臀部",
+      "secondary_muscles": "核心稳定肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/206/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-206-121.png",
+          "source": "https://wger.de/media/exercise-images/113/Walking-lunges-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "07387896308a88dec1c1f9644be3eaa6bca9485c9574c56ce7c18ddd02b9751d",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-206-122.png",
+          "source": "https://wger.de/media/exercise-images/113/Walking-lunges-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "e804f4c754e3b28e5887352cf5e993fbcb8384d4e88b06b83849ab2feb8d1443",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-365",
+      "name": "俯卧腿弯举",
+      "english": "Leg Curls (laying)",
+      "equipment": "machine",
+      "primary_focuses": [
+        "legs"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "大腿后侧（腘绳肌）",
+      "secondary_muscles": "小腿参与程度因姿势而异",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/365/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-365-179.png",
+          "source": "https://wger.de/media/exercise-images/154/lying-leg-curl-machine-large-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "e8da278d94c2c7fe5feed8aab3d4666aac55f699f19bad38c086cea2208c98ad",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-365-180.png",
+          "source": "https://wger.de/media/exercise-images/154/lying-leg-curl-machine-large-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "c9476f7baeaa61ea503abd07219be240eaa7cd443040447da004485d7f0dc1e4",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-366",
+      "name": "坐姿腿弯举",
+      "english": "Leg Curls (sitting)",
+      "equipment": "machine",
+      "primary_focuses": [
+        "legs"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "大腿后侧（腘绳肌）",
+      "secondary_muscles": "按器械与动作方式而异",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/366/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-366-181.png",
+          "source": "https://wger.de/media/exercise-images/117/seated-leg-curl-large-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "d13ff4f8aa04ab62b8ed1b42a9493307bd4077eaf4f84da57d4cc7dbe28ac372",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-366-182.png",
+          "source": "https://wger.de/media/exercise-images/117/seated-leg-curl-large-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "9985758b68e0d1b8eddbe5b5e5f3ede345005b21eca337e74245b13bd02c8593",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "wger-167",
+      "name": "卷腹",
+      "english": "Crunches",
+      "equipment": "bodyweight",
+      "primary_focuses": [
+        "core"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "腹直肌",
+      "secondary_muscles": "腹部稳定肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/167/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-167-4.png",
+          "source": "https://wger.de/media/exercise-images/91/Crunches-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "f0f8d07588e12a8a6f0f5c58e393837a5fb38bcac5ca1a7d73e60c1b97d508c5",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ]
+    },
+    {
+      "id": "local-plank",
+      "name": "前臂平板支撑",
+      "english": "Forearm Plank",
+      "equipment": "bodyweight",
+      "primary_focuses": [
+        "core"
+      ],
+      "secondary_focuses": [
+        "shoulders",
+        "legs"
+      ],
+      "primary_muscles": "腹部核心肌群",
+      "secondary_muscles": "肩部、腿臀等稳定肌群",
+      "tracking_unit": "seconds",
+      "source": "https://www.acefitness.org/resources/everyone/exercise-library/",
+      "images": [
+        {
+          "path": "/exercise-images/plank.svg",
+          "author": "本项目原创示意",
+          "license": "原创SVG",
+          "modifications": "简化侧视示意，不是动作姿势评估"
+        }
+      ]
+    },
+    {
+      "id": "wger-379",
+      "name": "坐姿器械推胸",
+      "english": "Leverage Machine Chest Press",
+      "equipment": "machine",
+      "primary_focuses": [
+        "chest"
+      ],
+      "secondary_focuses": [
+        "arms",
+        "shoulders"
+      ],
+      "primary_muscles": "胸大肌",
+      "secondary_muscles": "肱三头肌、三角肌前束",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/379/",
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0066-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0066-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "ff6dc2d5b1adbf7acd5e2e59e13518846a4058c2ccd5c1d615c97550780c525a",
+          "git_blob": "582458b3ba229a637b65fbf54cdb5d54688d8ea9",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "起始 · 屈肘"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0066-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0066-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "7e40d8c0b02dc182c5bdb6e88c0826d83cba09330bb0add50683d6ee5781cab4",
+          "git_blob": "f8b9460d8999d8757f47c47a363e2d9763002608",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "推出 · 控制伸肘"
+        }
+      ],
+      "aliases": [
+        "推胸机",
+        "坐姿推胸",
+        "器械卧推"
+      ],
+      "guide": "按器械说明调整座椅，使把手约在胸部高度；背部贴靠背，平稳向前推，再控制回程。不要耸肩或用身体前冲借力。",
+      "equipment_note": "挂片式与插销配重式的阻力不能直接比较；在备注注明机型和每侧/合计重量。"
+    },
+    {
+      "id": "wger-380",
+      "name": "胸托器械划船",
+      "english": "Leverage Machine Iso Row",
+      "equipment": "machine",
+      "primary_focuses": [
+        "back"
+      ],
+      "secondary_focuses": [
+        "arms",
+        "shoulders"
+      ],
+      "primary_muscles": "背阔肌、菱形肌、中斜方肌",
+      "secondary_muscles": "肱二头肌、三角肌后束",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/380/",
+      "images": [],
+      "aliases": [
+        "坐姿器械划船",
+        "胸托划船",
+        "杠杆划船机"
+      ],
+      "guide": "调整座椅和胸垫，胸部保持支撑；沿器械轨迹将把手拉向身体，再缓慢还原。不要用腰背后仰甩动配重。",
+      "equipment_note": "这里是力量训练的胸托/杠杆划船器械，不是有氧划船机；单臂与双臂记录请注明。"
+    },
+    {
+      "id": "wger-543",
+      "name": "器械肩上推举",
+      "english": "Shoulder Press, on Machine",
+      "equipment": "machine",
+      "primary_focuses": [
+        "shoulders"
+      ],
+      "secondary_focuses": [
+        "arms"
+      ],
+      "primary_muscles": "三角肌",
+      "secondary_muscles": "肱三头肌",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/543/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-543-196.png",
+          "source": "https://wger.de/media/exercise-images/53/Shoulder-press-machine-1.png",
+          "author": "wger.de",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "f66a569ffc518edc1028f9fecf886e0ed4f4a6af1965b1939df3aca68cd90285",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-543-195.png",
+          "source": "https://wger.de/media/exercise-images/53/Shoulder-press-machine-2.png",
+          "author": "wger.de",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "12505b3c44de512f1c4fdde210fdad8f8202f5438c63f538dc7677212ab863e4",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ],
+      "aliases": [
+        "推肩机",
+        "器械推肩",
+        "坐姿器械推举"
+      ],
+      "guide": "按铭牌调好座椅和起始位置，背部贴靠背；在无痛范围内向上推举，控制下降，不靠过度挺腰完成。",
+      "equipment_note": "图示仅代表一种器械轨迹，座椅高度与握法以现场器械说明为准。"
+    },
+    {
+      "id": "wger-1744",
+      "name": "器械侧平举",
+      "english": "Machine Side Lateral Raises",
+      "equipment": "machine",
+      "primary_focuses": [
+        "shoulders"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "三角肌中束",
+      "secondary_muscles": "肩胛稳定肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/1744/",
+      "images": [
+        {
+          "path": "/exercise-images/workout-guide-machine-lateral-raise-1.png",
+          "source": "https://github.com/bryllim/workout-guide/blob/9d900120b6a4cb4b067d06e6554d90ee6456124a/packages/workout-guide/assets/machine-lateral-raise/frame-1.png",
+          "author": "Bryl Lim",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "193d5281a5badd2342a747991c9f65d340abcddcbd7a25cdc5cf6255a2c3f29d",
+          "modifications": "未修改PNG文件；界面将浅色线条反色为深色并缩放显示",
+          "caption": "抬臂阶段示意",
+          "rendering": "invert"
+        }
+      ],
+      "aliases": [
+        "侧平举机",
+        "肩外展机",
+        "三角肌中束器械"
+      ],
+      "guide": "按铭牌调节座椅，让上臂接触支撑垫；平稳向两侧抬臂到舒适范围，再缓慢放回。保持躯干稳定，不耸肩抢重量。",
+      "image_note": "此图只示意抬臂阶段。原文件为浅色线条，界面反色显示；器械转轴和垫子位置以现场铭牌为准。"
+    },
+    {
+      "id": "wger-1775",
+      "name": "反向蝴蝶机飞鸟",
+      "english": "Pec deck rear delt fly",
+      "equipment": "machine",
+      "primary_focuses": [
+        "shoulders"
+      ],
+      "secondary_focuses": [
+        "back"
+      ],
+      "primary_muscles": "三角肌后束",
+      "secondary_muscles": "菱形肌、中斜方肌",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/1775/",
+      "images": [],
+      "aliases": [
+        "反向飞鸟机",
+        "后束飞鸟",
+        "反向夹胸机",
+        "肩后束"
+      ],
+      "guide": "面向胸垫坐稳，调整把手高度约与肩部相当；双臂向两侧后方展开后控制还原。不用挺腰和过度后拉代偿。",
+      "equipment_note": "请使用支持反向飞鸟模式的器械，不是把普通夹胸动作反着做。"
+    },
+    {
+      "id": "wger-369",
+      "name": "坐姿腿屈伸",
+      "english": "Leg Extension",
+      "equipment": "machine",
+      "primary_focuses": [
+        "legs"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "股四头肌（大腿前侧）",
+      "secondary_muscles": "按器械支撑方式而异",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/369/",
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0142-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0142-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "12f597b6ad73e5c224ddfd9ffac6dba0a9af45818420fc579490835a1b80203f",
+          "git_blob": "f66435a326aa156aa780f288bb8ac9c6d138b1ae",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "起始 · 屈膝"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0142-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0142-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "af74e968597d5b36e08e2d3583c0c2af3cccfd215740d277e74e0b3f3ae0fe5c",
+          "git_blob": "35867e38496dafa777341960aa1551a549938545",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "伸膝抬起"
+        }
+      ],
+      "aliases": [
+        "腿屈伸机",
+        "腿伸展",
+        "踢腿机",
+        "腿伸机"
+      ],
+      "guide": "按铭牌调整靠背、转轴与小腿垫位置；坐稳后伸膝抬起配重，再缓慢屈膝还原。不要猛踢、弹震或强行顶到疼痛位置。"
+    },
+    {
+      "id": "wger-371",
+      "name": "腿举（倒蹬机）",
+      "english": "Leg Press",
+      "equipment": "machine",
+      "primary_focuses": [
+        "legs"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "股四头肌、臀大肌",
+      "secondary_muscles": "其他腿部稳定肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/371/",
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0127-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0127-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "d2270aa075bb27db2d3bc9eeba3ad8acea7cfc2926c664d10d046c01619f2ed1",
+          "git_blob": "d90c346b4fce6a6a7cc7df5aab9dc6db56a50bad",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "屈膝阶段"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0127-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0127-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "078c7c902505de0fd5049774d92628f0c6e14c1a1979484e71e5d24abec84135",
+          "git_blob": "42a1e5745239808eb0c6b51391aedc70795c11c2",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "蹬回阶段"
+        }
+      ],
+      "aliases": [
+        "倒蹬",
+        "腿举机",
+        "蹬腿机",
+        "腿推机"
+      ],
+      "guide": "先确认安全挡位，背部和骨盆保持支撑，双脚稳放踏板；屈膝到不卷起骨盆的舒适范围，再平稳蹬回，不猛锁膝。",
+      "equipment_note": "水平式与斜轨式不能按同一重量比较；记录机器标示或挂片口径，不自动计入未知滑车自重。"
+    },
+    {
+      "id": "wger-375",
+      "name": "哈克深蹲",
+      "english": "Leg Press on Hackenschmidt Machine",
+      "equipment": "machine",
+      "primary_focuses": [
+        "legs"
+      ],
+      "secondary_focuses": [
+        "core"
+      ],
+      "primary_muscles": "股四头肌、臀部",
+      "secondary_muscles": "核心稳定肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/375/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-375-125.png",
+          "source": "https://wger.de/media/exercise-images/130/Narrow-stance-hack-squats-1-1024x721.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "02c9fff9d2a11b4c1125cec4f94e4edac03f4ab07d5d928dad9e13f96e2778b9",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-375-126.png",
+          "source": "https://wger.de/media/exercise-images/130/Narrow-stance-hack-squats-2-1024x721.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "c4c127ee73627ca543d0441b4df282d6a798134afa817d872da06003d7cd1fd2",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ],
+      "aliases": [
+        "哈克机",
+        "哈克蹲",
+        "哈克深蹲机",
+        "hack squat"
+      ],
+      "guide": "先确认安全挡位，肩背贴紧支撑垫；沿滑轨屈髋屈膝下蹲到舒适范围，再平稳站起。不在底部弹震，不强求深度。",
+      "equipment_note": "原图是窄站距示例，不要求照搬脚位；与腿举是不同动作，挂片重量不自动加上未知滑车自重。"
+    },
+    {
+      "id": "wger-367",
+      "name": "站姿器械腿弯举",
+      "english": "Leg Curls (standing)",
+      "equipment": "machine",
+      "primary_focuses": [
+        "legs"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "腘绳肌（大腿后侧）",
+      "secondary_muscles": "小腿肌群参与程度因姿势而异",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/367/",
+      "images": [
+        {
+          "path": "/exercise-images/wger-367-183.png",
+          "source": "https://wger.de/media/exercise-images/118/standing-leg-curls-large-1.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "9ac2c223546eb7e2413e8937a2462ab31c12586c856f43404f1d1070750bb8fe",
+          "modifications": "未修改原图；界面仅缩放显示"
+        },
+        {
+          "path": "/exercise-images/wger-367-184.png",
+          "source": "https://wger.de/media/exercise-images/118/standing-leg-curls-large-2.png",
+          "author": "Everkinetic",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sha256": "be95d60736fa80223a832b9b30b1978ddd0139df44d7267a0cedce5a6efc1fa9",
+          "modifications": "未修改原图；界面仅缩放显示"
+        }
+      ],
+      "aliases": [
+        "站姿腿弯举",
+        "站姿勾腿",
+        "单腿勾腿机"
+      ],
+      "guide": "按器械说明调整支撑和腿垫，稳住身体；单腿屈膝勾起配重，再控制放下，避免用髋部前后甩动带起重量。",
+      "equipment_note": "通常逐侧完成；请在训练备注说明左右侧组数，不把单侧重量自动翻倍。"
+    },
+    {
+      "id": "wger-12",
+      "name": "坐姿髋内收",
+      "english": "Seated Hip Adduction",
+      "equipment": "machine",
+      "primary_focuses": [
+        "legs"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "髋内收肌群（大腿内侧）",
+      "secondary_muscles": "髋部稳定肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/12/",
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0157-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0157-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "65bdf74cf7ad8a92a02dc53d7757b866f4861b3365ad7e3016e8b1ff6b8f1e51",
+          "git_blob": "731fd4c4a8bad5f906f120dc1a25d6a7e8f8e8d9",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "打开起始"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0157-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0157-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "0d1625da565477602bd55eb4c268a1aaf49de1c3757ece4bbbec873aaaa9b317",
+          "git_blob": "b46144ed0c01eaf90a000b2d7d64c9c6d4774852",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "向内夹合"
+        }
+      ],
+      "aliases": [
+        "夹腿机",
+        "大腿内收",
+        "髋内收机"
+      ],
+      "guide": "靠稳椅背，将大腿内侧贴住内收模式的垫子；从舒适的打开幅度向内夹合，再缓慢放回，不强行拉开到极限。",
+      "equipment_note": "内收是向内夹腿，与外展机向外打开不同；先核对器械模式和垫子接触面。"
+    },
+    {
+      "id": "wger-1672",
+      "name": "坐姿髋外展",
+      "english": "Seated Hip Abduction",
+      "equipment": "machine",
+      "primary_focuses": [
+        "legs"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "臀中肌、臀小肌等髋外展肌群",
+      "secondary_muscles": "髋部稳定肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/1672/",
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0156-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0156-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "548304530ccc4f33dbf7f1d77741b2e542ca40a18a518af6d871b24336056d7a",
+          "git_blob": "567b75e91b682634a37d256c5a2c1fb3520212bb",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "合拢起始"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0156-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0156-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "4a13afc1ac21cfcb5f85e06867604e769cadb3214e14008685b9257bb00567db",
+          "git_blob": "a672c7712a99e359467b3bd52effdd902c1adbfe",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "向外打开"
+        }
+      ],
+      "aliases": [
+        "开腿机",
+        "臀外展",
+        "髋外展机",
+        "大腿外展"
+      ],
+      "guide": "靠稳椅背，大腿外侧贴住外展垫；从髋部发力把腿向两侧打开，再控制收回。保持骨盆稳定，不甩动身体追求幅度。",
+      "equipment_note": "外展是向外开腿，与内收机向内夹腿不同；以现场器械调节说明为准。"
+    },
+    {
+      "id": "wger-590",
+      "name": "坐姿器械提踵",
+      "english": "Sitting Calf Raises",
+      "equipment": "machine",
+      "primary_focuses": [
+        "legs"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "比目鱼肌（小腿）",
+      "secondary_muscles": "其他小腿肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/590/",
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0279-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0279-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "8dd3daed18c59afe74c0517cbbffb0a92822eef9124ae5b6520fa22dc02ec5f5",
+          "git_blob": "5598612383e4055124090ba2b6e5c497e58159ec",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "脚跟下降"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0279-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0279-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "ddcbc8d89cf97d6a8f19dad4f1f3c631027d7f2c8debdef7b11c00baab1064cd",
+          "git_blob": "98dbf9261baa170ecf007ef49b75de458d5483c7",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "脚跟抬起"
+        }
+      ],
+      "aliases": [
+        "提踵机",
+        "坐姿小腿",
+        "坐姿提踵"
+      ],
+      "guide": "前脚掌稳放踏板，按铭牌设置大腿垫；平稳抬起脚跟，短暂停顿后控制下降，不在最低处弹震。",
+      "equipment_note": "这里记录坐姿器械版本；挂片式请注明重量口径，不自动估算杠杆提供的实际阻力。"
+    },
+    {
+      "id": "wger-1424",
+      "name": "器械二头弯举",
+      "english": "Biceps Curl Machine",
+      "equipment": "machine",
+      "primary_focuses": [
+        "arms"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "肱二头肌、肱肌",
+      "secondary_muscles": "前臂肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/1424/",
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0236-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0236-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "75b6db06bdc55e0b5025cfca13fbc0aeea839922711afb4e42264f1d97bddff4",
+          "git_blob": "6c41e14f97590d334bf9422c02da7476f2cd7833",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "伸肘起始"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0236-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0236-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "e3539e769c6fb32dc5f6189fce0a5c38501aeb55ef58b73ac56042509962bfc5",
+          "git_blob": "c89551adf91b797689ed6dfda49dc899b570f1ce",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "屈肘弯举"
+        }
+      ],
+      "aliases": [
+        "弯举机",
+        "二头肌训练机",
+        "器械弯举"
+      ],
+      "guide": "按器械转轴和支撑垫调整座椅，上臂保持稳定；屈肘拉起把手，再缓慢伸肘还原。不抬肩甩动，不强行压到肘部极限。"
+    },
+    {
+      "id": "wger-661",
+      "name": "器械臂屈伸",
+      "english": "Triceps on Machine",
+      "equipment": "machine",
+      "primary_focuses": [
+        "arms"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "肱三头肌",
+      "secondary_muscles": "上臂与肩部稳定肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/661/",
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0210-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0210-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "75e3143fb98dc1e57d56c0cfbf31f48606f4c7028b3f749241de2efd016ebf9c",
+          "git_blob": "6ffe5998a9084f2661b1f3c60e72b9191ac6f3e0",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "屈肘起始"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0210-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0210-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "6c61d6cef2897679228630f050d0635b59822f699440f525185e4d3de0be163d",
+          "git_blob": "a58260ff5203594cc922d84bb4273f7f45fe0d5a",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "伸肘推出"
+        }
+      ],
+      "aliases": [
+        "三头肌训练机",
+        "肱三头肌器械",
+        "臂屈伸机"
+      ],
+      "guide": "按器械说明调整座椅和上臂支撑，上臂保持相对稳定；沿把手轨迹伸肘，再缓慢回到起始位置，不猛锁肘。",
+      "equipment_note": "指伸肘训练器，不等同于助力双杠臂屈伸或坐姿下压机；以铭牌动作名称核对。"
+    },
+    {
+      "id": "wger-172",
+      "name": "器械卷腹",
+      "english": "Crunches on Machine",
+      "equipment": "machine",
+      "primary_focuses": [
+        "core"
+      ],
+      "secondary_focuses": [],
+      "primary_muscles": "腹直肌",
+      "secondary_muscles": "其他腹部稳定肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/172/",
+      "images": [],
+      "aliases": [
+        "卷腹机",
+        "腹肌机",
+        "坐姿卷腹"
+      ],
+      "guide": "调节座椅与支撑后坐稳，沿器械轨迹卷动躯干，再缓慢还原；用可控幅度完成，不用手臂猛拉或身体前冲。"
+    },
+    {
+      "id": "wger-2623",
+      "name": "挂片式高位下拉",
+      "english": "Plate-Loaded Lat Pulldown",
+      "equipment": "machine",
+      "primary_focuses": [
+        "back"
+      ],
+      "secondary_focuses": [
+        "arms"
+      ],
+      "primary_muscles": "背阔肌",
+      "secondary_muscles": "肱二头肌、背部稳定肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/2623/",
+      "images": [],
+      "aliases": [
+        "杠杆下拉",
+        "挂片高拉",
+        "高拉背机"
+      ],
+      "guide": "坐稳并固定大腿，握住上方把手；沿器械轨迹向下拉至上胸附近的舒适范围，再控制回程。不用身体大幅后仰借力。",
+      "equipment_note": "固定杠杆轨迹、挂片配重；请注明单侧还是两侧合计，不与拉力器配重直接比较。"
+    },
+    {
+      "id": "wger-355",
+      "name": "坐姿高位下拉（拉力器）",
+      "english": "Lat Pull Down (Straight Back)",
+      "equipment": "cable",
+      "primary_focuses": [
+        "back"
+      ],
+      "secondary_focuses": [
+        "arms"
+      ],
+      "primary_muscles": "背阔肌",
+      "secondary_muscles": "肱二头肌、中背部肌群",
+      "tracking_unit": "reps",
+      "source": "https://wger.de/api/v2/exerciseinfo/355/",
+      "images": [
+        {
+          "path": "/exercise-images/everkinetic-0093-relaxation.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0093-relaxation.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "e2c65fd7910157b8729f5e64cb0410306badc9e81f94580962af83ca80d2351e",
+          "git_blob": "84021bbb04160f9340e9f8d12e788c0f7a2e3c10",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "反握 · 起始"
+        },
+        {
+          "path": "/exercise-images/everkinetic-0093-tension.png",
+          "source": "https://github.com/everkinetic/data/blob/446bb9a3d0c3beb6b84f7c9d77dfc8af707a2ab6/dist/png/0093-tension.png",
+          "author": "Everkinetic（Greg Priday）",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sha256": "90a906f216e37dd46862984bb1c5ab9822447bebee5e0f9d3596739a4fbfdbfb",
+          "git_blob": "68ed864c634030d78703e65f716231337c543a1c",
+          "modifications": "未修改原图；界面仅缩放显示",
+          "caption": "反握 · 下拉"
+        }
+      ],
+      "aliases": [
+        "下拉机",
+        "高位下拉",
+        "背阔肌下拉",
+        "lat pulldown"
+      ],
+      "guide": "调好压腿垫并坐稳，握住上方拉杆；将拉杆向上胸前方拉下，再控制还原，不拉到颈后，也不大幅后仰甩动。",
+      "equipment_note": "属于绳索拉力器，不是固定杠杆下拉；按配重片标示记录，滑轮倍率不同不能直接换算。",
+      "image_note": "图中是反握的绳索下拉变式，并非挂片式高拉；实际握法请在备注中区分。"
+    }
+  ]
+}
